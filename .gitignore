@@ -1,0 +1,19 @@
+# Згенеровані збіркою файли
+dist/
+*.js
+*.js.map
+
+# Node modules (якщо є)
+node_modules/
+
+# Системні файли
+.DS_Store
+Thumbs.db
+
+# Логи та тимчасові файли
+*.log
+*.tmp
+
+# IDE/Editor файли
+.vscode/
+.idea/
