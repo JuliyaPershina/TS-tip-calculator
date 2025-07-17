@@ -1,7 +1,3 @@
-# Згенеровані збіркою файли
-dist/
-*.js
-*.js.map
 
 # Node modules (якщо є)
 node_modules/
