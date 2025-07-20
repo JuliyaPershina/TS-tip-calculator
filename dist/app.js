@@ -70,8 +70,8 @@ function calculateAmount() {
     }
     const tipAmountValue = (params.billValue * params.selectPercent) / 100;
     const totalAmount = (params.billValue + tipAmountValue) / params.numberOfPeopleValue;
-    elements.tipAmount.textContent = `$${(tipAmountValue / params.numberOfPeopleValue).toFixed(2)}`;
-    elements.total.textContent = `$${totalAmount.toFixed(2)}`;
+    elements.tipAmount.textContent = `&#36${(tipAmountValue / params.numberOfPeopleValue).toFixed(2)}`;
+    elements.total.textContent = `&#36${totalAmount.toFixed(2)}`;
 }
 elements.form.addEventListener('reset', () => {
     clearActiveTips();
