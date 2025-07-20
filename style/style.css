@@ -39,6 +39,7 @@ h1 {
   justify-content: space-around;
   align-items: center;
   gap: 0;
+  padding: 10px;
 }
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -71,7 +72,7 @@ input[type='number'].error {
 .input_data {
   width: 100%;
   max-width: 380px;
-  height: 390px;
+  min-height: 390px;
   margin: 48px 0;
   display: flex;
   justify-content: space-between;
@@ -158,14 +159,11 @@ input[type='number'].error {
   gap: 0;
 }
 
-.result_wrapper {
-  /* margin: 40px 40px 0 40px; */
-}
-
 .tip_amount {
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
@@ -174,6 +172,7 @@ input[type='number'].error {
   justify-content: space-between;
   flex-direction: row;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .amount {
@@ -226,7 +225,8 @@ input[type='number'].error {
   .tips {
     justify-content: space-around;
   }
-  .tip {
+  .tip,
+  #customTip {
     width: 148px;
   }
   .tips_input {
